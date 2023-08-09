@@ -50,7 +50,7 @@ export const stockMockQuote = {
     "t": 1582641000 
   }
 
-export const mockCandleSticks = {
+export const mockHistoricalData = {
     "c": [
       217.68,
       221.03,
