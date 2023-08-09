@@ -9,7 +9,8 @@ export const convertUnixTimestampToDate = (unixTimeStamp) => {
 
 export const createDate = (date, days, weeks, months, years) => {
     let newDate = new Date(date);
-    newDate.setDate(newDate.geetDate() + days + 7 * weeks);
+    newDate.setDate(newDate.getDate() + days + 7 * weeks);
     newDate.setDate(newDate.getMonth() + months);
     newDate.setFullYear(newDate.getFullYear() + years);
+    return newDate;
 };
